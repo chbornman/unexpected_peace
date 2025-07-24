@@ -125,7 +125,7 @@ export default function Home() {
               </svg>
             </div>
             <blockquote className="relative text-2xl sm:text-3xl md:text-4xl font-light italic text-gray-700 text-center leading-relaxed">
-              "Peace starts with recognizing the humanity of the other"
+              &quot;Peace starts with recognizing the humanity of the other&quot;
             </blockquote>
             <div className="absolute -bottom-8 -right-8 text-[#dea01e] opacity-20 transform rotate-180">
               <svg className="w-24 h-24" fill="currentColor" viewBox="0 0 32 32">
@@ -185,7 +185,7 @@ export default function Home() {
                   <p className="text-sm opacity-90">New York, USA</p>
                 </div>
               </div>
-              <p className="text-gray-600">Muslim families' powerful response of nonviolence in the face of senseless violence</p>
+              <p className="text-gray-600">Muslim families&apos; powerful response of nonviolence in the face of senseless violence</p>
             </div>
 
             {/* Story 3 */}

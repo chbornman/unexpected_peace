@@ -148,7 +148,7 @@ export default function TheFilm() {
                 compassion, and innovative approaches to peacebuilding.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                Dr. Bornman's experiences and insights form the narrative backbone of the documentary, 
+                Dr. Bornman&apos;s experiences and insights form the narrative backbone of the documentary, 
                 offering viewers a deeply personal yet universally relevant perspective on the nature 
                 of conflict and the pathways to lasting peace.
               </p>
@@ -220,10 +220,10 @@ export default function TheFilm() {
           >
             <blockquote className="text-center">
               <p className="text-2xl md:text-3xl font-light italic mb-6 text-[#dea01e]">
-                "Amidst difference, scarcity, and injustice, fear divides. Anger boils. Conflict erupts."
+                &quot;Amidst difference, scarcity, and injustice, fear divides. Anger boils. Conflict erupts.&quot;
               </p>
               <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-                This powerful observation frames the documentary's exploration of how we can transform 
+                This powerful observation frames the documentary&apos;s exploration of how we can transform 
                 these natural human responses into opportunities for growth and understanding.
               </p>
             </blockquote>

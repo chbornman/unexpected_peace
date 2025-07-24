@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
 import { SiImdb } from 'react-icons/si'
 import { HeartIcon } from '@heroicons/react/24/outline'

@@ -63,7 +63,7 @@ export default function Partners() {
                 Our <span className="text-[#dea01e]">Partners</span>
               </h1>
               <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto">
-                Together with visionary organizations, we're bringing stories of peace 
+                Together with visionary organizations, we&apos;re bringing stories of peace 
                 and reconciliation to audiences worldwide.
               </p>
             </motion.div>
@@ -192,7 +192,7 @@ export default function Partners() {
             </h2>
             <p className="text-lg lg:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
               If your organization shares our vision for peace and reconciliation, 
-              we'd love to explore how we can work together to create lasting impact.
+              we&apos;d love to explore how we can work together to create lasting impact.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

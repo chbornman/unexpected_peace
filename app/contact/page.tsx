@@ -12,7 +12,7 @@ export default function Contact() {
             <h1 className="text-5xl font-bold text-gray-900 mb-4">Get in Touch</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Have questions about screenings, want to organize an event, or interested in supporting our mission? 
-              We'd love to hear from you.
+              We&apos;d love to hear from you.
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@ export default function Contact() {
           <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-10">
             <div className="mb-8">
               <h2 className="text-3xl font-bold text-gray-900 mb-2">Send a Message</h2>
-              <p className="text-gray-600">Fill out the form below and we'll get back to you as soon as possible.</p>
+              <p className="text-gray-600">Fill out the form below and we&apos;ll get back to you as soon as possible.</p>
             </div>
             <ContactForm />
           </div>

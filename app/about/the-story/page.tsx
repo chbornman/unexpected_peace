@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 import { MapPin, Heart, Users, Sparkles, Quote, Calendar, Globe, Star } from 'lucide-react'
 
 export default function TheStory() {
-  const [activeStory, setActiveStory] = useState<string | null>(null)
+  const [, setActiveStory] = useState<string | null>(null)
 
   const stories = [
     {
@@ -93,7 +93,7 @@ export default function TheStory() {
               Three Stories. One Truth.
             </h1>
             <p className="text-xl md:text-2xl font-light italic">
-              "In our darkest moments, we discover our greatest capacity for light."
+              &quot;In our darkest moments, we discover our greatest capacity for light.&quot;
             </p>
           </motion.div>
         </div>
@@ -192,8 +192,8 @@ export default function TheStory() {
                     <div>
                       <h4 className="font-bold text-xl mb-2">Marie Roberts</h4>
                       <p className="text-gray-700 italic">
-                        "He held out his hand to my husband and said, 'We forgive you.' 
-                        It was the most powerful moment of grace I have ever experienced."
+                        &quot;He held out his hand to my husband and said, &apos;We forgive you.&apos; 
+                        It was the most powerful moment of grace I have ever experienced.&quot;
                       </p>
                       <p className="text-sm text-gray-500 mt-2">Mother of the shooter</p>
                     </div>
@@ -201,7 +201,7 @@ export default function TheStory() {
                 </div>
                 
                 <p className="text-lg leading-relaxed">
-                  The Amish community's response went beyond words. They attended the shooter's funeral, 
+                  The Amish community&apos;s response went beyond words. They attended the shooter&apos;s funeral, 
                   established a fund for his family, and consistently demonstrated that forgiveness is not 
                   just a concept but a lived practice.
                 </p>
@@ -278,8 +278,8 @@ export default function TheStory() {
                     <div>
                       <h4 className="font-bold text-xl mb-2">Oustaz Mbay</h4>
                       <p className="text-gray-700 italic">
-                        "Violence only begets more violence. Our Prophet, peace be upon him, 
-                        showed us that true strength lies in restraint."
+                        &quot;Violence only begets more violence. Our Prophet, peace be upon him, 
+                        showed us that true strength lies in restraint.&quot;
                       </p>
                       <p className="text-sm text-gray-500 mt-2">Religious leader, Murid community</p>
                     </div>
@@ -323,8 +323,8 @@ export default function TheStory() {
                     <div>
                       <h4 className="font-bold text-xl mb-2">Pastor Paulus Hartono & Commander Yanni Rusmanto</h4>
                       <p className="text-gray-700 italic">
-                        "We discovered how much we had in common. We both wanted peace for our children, 
-                        prosperity for our communities, and the freedom to worship."
+                        &quot;We discovered how much we had in common. We both wanted peace for our children, 
+                        prosperity for our communities, and the freedom to worship.&quot;
                       </p>
                       <p className="text-sm text-gray-500 mt-2">Christian pastor and Muslim military officer</p>
                     </div>
@@ -409,8 +409,8 @@ export default function TheStory() {
           >
             <Quote className="w-16 h-16 mx-auto mb-8 text-[#dea01e]" />
             <p className="text-3xl md:text-4xl font-light italic leading-relaxed mb-8">
-              "These are not just stories of exceptional individuals but examples of what becomes possible 
-              when communities commit to the difficult but transformative work of peace."
+              &quot;These are not just stories of exceptional individuals but examples of what becomes possible 
+              when communities commit to the difficult but transformative work of peace.&quot;
             </p>
             <div className="w-24 h-1 bg-[#dea01e] mx-auto rounded-full" />
           </motion.div>

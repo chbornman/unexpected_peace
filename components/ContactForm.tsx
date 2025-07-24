@@ -42,7 +42,7 @@ export default function ContactForm() {
         })
         setSubmitStatus('idle')
       }, 3000)
-    } catch (error) {
+    } catch {
       setSubmitStatus('error')
       setTimeout(() => setSubmitStatus('idle'), 5000)
     } finally {
@@ -60,7 +60,7 @@ export default function ContactForm() {
       {submitStatus === 'success' && (
         <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
           <p className="text-green-800 font-medium">Message sent successfully!</p>
-          <p className="text-green-600 text-sm mt-1">We'll get back to you within 24 hours.</p>
+          <p className="text-green-600 text-sm mt-1">We&apos;ll get back to you within 24 hours.</p>
         </div>
       )}
 

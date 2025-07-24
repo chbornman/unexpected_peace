@@ -50,7 +50,7 @@ export default function About() {
               About <span className="text-[#dea01e]">Unexpected Peace</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Exploring humanity's profound capacity for forgiveness and nonviolence in the face of unimaginable tragedy
+              Exploring humanity&apos;s profound capacity for forgiveness and nonviolence in the face of unimaginable tragedy
             </p>
           </motion.div>
         </motion.div>
@@ -71,14 +71,14 @@ export default function About() {
                 <SparklesIcon className="w-8 h-8 text-[#dea01e]" />
               </div>
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">Director's Vision</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-2">Director&apos;s Vision</h2>
                 <p className="text-lg text-gray-600">The genesis of a journey into forgiveness</p>
               </div>
             </motion.div>
             
             <motion.div variants={fadeIn} className="space-y-6 text-lg leading-relaxed text-gray-700">
               <p>
-                When I graduated from college, I knew that at some point I wanted to make a documentary about humanity's 
+                When I graduated from college, I knew that at some point I wanted to make a documentary about humanity&apos;s 
                 struggle to practice nonviolence. But what form would that take? Who would be the subjects? And what 
                 would be the approach?
               </p>
@@ -145,10 +145,10 @@ export default function About() {
                   <div className="space-y-4 text-gray-700">
                     <p>
                       On October 2, 2006, a gunman entered an Amish schoolhouse and shot ten young girls, killing five. 
-                      Within hours, members of the Amish community were visiting the shooter's family, offering forgiveness and comfort.
+                      Within hours, members of the Amish community were visiting the shooter&apos;s family, offering forgiveness and comfort.
                     </p>
                     <p>
-                      The Amish's immediate forgiveness shocked the world. How could they forgive so quickly? 
+                      The Amish&apos;s immediate forgiveness shocked the world. How could they forgive so quickly? 
                       What enabled this community to respond with love rather than hate? Their response challenges 
                       our understanding of justice, revenge, and the possibility of peace.
                     </p>

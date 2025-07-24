@@ -259,8 +259,8 @@ export default function Donate() {
               <div className="space-y-6">
                 <div className="bg-gray-50 rounded-lg p-6">
                   <p className="text-gray-700 italic mb-4">
-                    "This documentary changed how our community views reconciliation. The screening 
-                    brought together people who hadn't spoken in years."
+                    &quot;This documentary changed how our community views reconciliation. The screening 
+                    brought together people who hadn&apos;t spoken in years.&quot;
                   </p>
                   <div className="flex items-center">
                     <div className="w-12 h-12 bg-[#dea01e] rounded-full flex items-center justify-center text-white font-bold mr-3">
@@ -274,8 +274,8 @@ export default function Donate() {
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
                   <p className="text-gray-700 italic mb-4">
-                    "Supporting this project means investing in real change. I've seen firsthand 
-                    how these stories transform hearts and communities."
+                    &quot;Supporting this project means investing in real change. I&apos;ve seen firsthand 
+                    how these stories transform hearts and communities.&quot;
                   </p>
                   <div className="flex items-center">
                     <div className="w-12 h-12 bg-[#dea01e] rounded-full flex items-center justify-center text-white font-bold mr-3">
@@ -336,7 +336,7 @@ export default function Donate() {
                   </div>
                 </div>
                 <p className="text-sm text-gray-600">
-                  Your payment information is processed securely through Evangelical Media Ministries' 
+                  Your payment information is processed securely through Evangelical Media Ministries&apos; 
                   certified payment gateway.
                 </p>
               </div>
@@ -353,7 +353,7 @@ export default function Donate() {
           </h2>
           <p className="text-xl text-white/90 mb-8">
             Join us in building bridges where walls once stood. Your generosity today 
-            creates tomorrow's reconciliation stories.
+            creates tomorrow&apos;s reconciliation stories.
           </p>
           <Link 
             href="http://emm.org/unexpectedpeace"

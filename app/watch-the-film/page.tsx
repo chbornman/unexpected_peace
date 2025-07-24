@@ -9,7 +9,7 @@ export default function WatchTheFilm() {
     {
       number: "1",
       title: "Choose Your Screening Type",
-      description: "Decide between virtual, on-demand, or in-person screening based on your community's needs."
+      description: "Decide between virtual, on-demand, or in-person screening based on your community&apos;s needs."
     },
     {
       number: "2",
@@ -49,7 +49,7 @@ export default function WatchTheFilm() {
     {
       number: "9",
       title: "Facilitate Post-Screening Discussion",
-      description: "Guide your group through processing the film's powerful messages."
+      description: "Guide your group through processing the film&apos;s powerful messages."
     },
     {
       number: "10",
@@ -73,7 +73,7 @@ export default function WatchTheFilm() {
             Watch the Film
           </h1>
           <p className="text-2xl md:text-3xl font-light text-gray-300 italic">
-            "Peace starts with recognizing the humanity of the other"
+            &quot;Peace starts with recognizing the humanity of the other&quot;
           </p>
         </div>
       </section>
@@ -276,7 +276,7 @@ export default function WatchTheFilm() {
             Ready to Host a Screening?
           </h2>
           <p className="text-xl mb-8 text-gray-300">
-            We're here to support you every step of the way. Contact us for screening packages, 
+            We&apos;re here to support you every step of the way. Contact us for screening packages, 
             promotional materials, and discussion guides.
           </p>
           <Link
