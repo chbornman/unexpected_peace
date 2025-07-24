@@ -12,65 +12,49 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Dark Background with Overlay */}
-        <div className="absolute inset-0 bg-black">
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/70 to-black/90"></div>
-        </div>
-        
-        {/* Subtle Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-32 -left-32 w-96 h-96 bg-[#dea01e]/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-[#f5b942]/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/documentary-still-7a.jpg"
+            alt="Unexpected Peace"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/70"></div>
         </div>
 
-        <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Logo/Title */}
-          <div className="mb-8 animate-fade-in">
-            <h1 className="text-6xl sm:text-7xl md:text-8xl font-bold text-white mb-4">
-              <span className="bg-gradient-to-r from-[#dea01e] via-[#f5b942] to-[#dea01e] bg-clip-text text-transparent">
-                Unexpected
-              </span>
-              <br />
-              <span className="text-white">Peace</span>
-            </h1>
-            <div className="h-1 w-32 bg-gradient-to-r from-[#dea01e] to-[#f5b942] mx-auto mb-8"></div>
-          </div>
-          
-          {/* Tagline */}
-          <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-12 font-light animate-fade-in" style={{ animationDelay: '0.2s' }}>
+        <div className="relative z-10 text-center max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Tagline at top */}
+          <p className="text-lg sm:text-xl text-white/90 mb-8 font-light tracking-wide animate-fade-in italic">
             A film by Dove Tale Productions
           </p>
+
+          {/* Logo/Title */}
+          <div className="mb-12 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-white">
+              <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-2 font-light">unexpected</span>
+              <span className="block text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] tracking-tight">Peace</span>
+            </h1>
+          </div>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <Link
               href="/watch-the-film"
-              className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-[#dea01e] to-[#f5b942] rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
+              className="group inline-flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-[#dea01e] rounded-full hover:bg-[#c4901a] transition-all duration-200 transform hover:scale-105"
             >
-              <span className="relative z-10 flex items-center">
-                <FilmIcon className="w-5 h-5 mr-2" />
-                Watch the Film
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-[#f5b942] to-[#dea01e] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <FilmIcon className="w-5 h-5 mr-2" />
+              WATCH THE FILM
             </Link>
             
             <button
-              className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white border-2 border-white rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 hover:border-[#dea01e]"
+              className="group inline-flex items-center justify-center px-8 py-3 text-base font-medium text-white border border-white rounded-full hover:bg-white hover:text-black transition-all duration-200 transform hover:scale-105"
               onClick={() => setIsPlaying(true)}
             >
-              <span className="relative z-10 flex items-center">
-                <PlayIcon className="w-5 h-5 mr-2" />
-                Play Trailer
-              </span>
-              <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+              <PlayIcon className="w-5 h-5 mr-2" />
+              PLAY TRAILER
             </button>
-          </div>
-
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-white rounded-full mt-2"></div>
-            </div>
           </div>
         </div>
       </section>
